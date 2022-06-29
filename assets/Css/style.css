@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:white;
+    height:  4rem;
+    align-items: center;
+
+}
+#navMenu>ul,li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 2em;
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+body{
+    background-color: hsl(220, 16%, 96%)
+}
+.requestBtn{
+    width: 10rem;
+    min-width: 10rem;
+    height: 2.2rem;
+    padding-top: 1%;
+    border-radius: 20px;
+    text-align: center;
+    background-image:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%)) ;
+    margin-right: 2%;
+    color: white;
+    font-weight: bold;
+}
+.nextGeneration{
+height: 40vh;
+}
+#requestPart{
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.heading{
+    font-size: 60px;
+    font-weight: bold;
+    color: hsl(233, 26%, 24%);
+    min-width: 440px;
+    margin-bottom: 3vh;
+}
+.descr{
+    font-size: 20px;
+    color: hsl(233, 8%, 62%);
+    font-weight: 500;
+    margin-bottom: 4vh;
+    max-width: 480px;
+}
+#bankChoose{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.cards{
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+}
+.cardTitle{
+    margin-top: 1vh;
+    font-size: 25px;
+    color: hsl(233, 26%, 24%);
+    font-weight: 500;
+}
+.cardDecr{
+    margin-top: 1vh;
+    font-size: 20px;
+    color: hsl(233, 8%, 62%);
+    font-weight:400;
+}
+.allCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
