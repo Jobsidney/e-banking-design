@@ -85,3 +85,10 @@ height: 40vh;
     flex-direction: row;
     justify-content: space-between;
 }
+#articalSection{
+    background-color: hsl(0, 0%, 98%);
+    height: 40vh;
+}
+.cards>img{
+    width: 300px;
+}
