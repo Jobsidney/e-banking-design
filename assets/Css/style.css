@@ -62,6 +62,7 @@ height: 40vh;
 #bankChoose{
     font-size: 40px;
     font-weight: lighter;
+    margin-bottom: 1rem;
 }
 .cards{
     height: 400px;
@@ -84,11 +85,38 @@ height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 4rem;
 }
 #articalSection{
+    justify-content: center;
+    padding: 100px 7% 0px 7%;
     background-color: hsl(0, 0%, 98%);
-    height: 40vh;
+    height: 80vh;
 }
 .cards>img{
     width: 300px;
+    border-radius: 5px 5px 0px 0px;
+    height: 200px;
+}
+#whyEasyBankSection{
+    padding: 200px 7% 0px 7%;
+    height: 70vh;
+}
+#floating{
+    margin-bottom: -170px;
+    float: right;
+    position:absolute;
+    right: 0;
+    
+}
+#footerSection{
+    background-color: hsl(233, 26%, 24%);
+    height:30vh;
+
+}
+#behind{
+    float: right;
+    /* position: absolute; */
+    width: 50rem;
+    height: 80vh;
 }
